@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background, .navbarcolor{
+    background: rgb(112,44,247);
+    background: linear-gradient( rgba(112,44,247,1) 0%, rgba(112,44,247,1) 50%, rgba(112,44,247,1) 100%);
+}
+
+.nav-link{
+    color: white;
+}
+
+.version, .version:hover, .version::selection, .version:enabled, .version:focus{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.icono{
+    color: lightgray;
+}
+
+.icono:hover{
+    color: white;
+}
+
+.buscador{
+    background: rgb(101, 39, 226);
+    color: white;
+    border: 1px solid rgb(168, 132, 241);
+}
+
+.buscador:focus{
+    border: orange 3px double;
+}
+
+.botonBuscar{
+    background: rgb(94, 34, 214);
+    border: none;
+}
