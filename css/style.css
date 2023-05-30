@@ -3,12 +3,18 @@
     padding: 0;
 }
 
+/* Gradiente base de la barra para su backgorund. */
+
 .background, .navbarcolor{
     background: rgb(112,44,247);
     background: linear-gradient( rgba(112,44,247,1) 0%, rgba(112,44,247,1) 50%, rgba(112,44,247,1) 100%);
 }
 
 .nav-link{
+    color: lightgray;
+}
+
+.nav-link:hover{
     color: white;
 }
 
@@ -32,11 +38,35 @@
     border: 1px solid rgb(168, 132, 241);
 }
 
+.buscador svg{
+    margin-left: 2%;
+}
+
 .buscador:focus{
     border: orange 3px double;
+    background: rgb(101, 39, 226);
+    color: white;
 }
 
 .botonBuscar{
-    background: rgb(94, 34, 214);
+    background: rgb(80, 29, 182);
     border: none;
+    width: 20%;
+    height: 10%;
+    font-size: small;
+}
+
+.form-group{
+    border-radius: 10px;
+}
+
+.form-control, .form-control:focus, .form-control:focus{
+    background: transparent;
+    border: none;
+}
+
+/* Pone el placeholder de la barra de búsqueda de color blanco. */
+
+.form-control::placeholder{
+    color: white;
 }
